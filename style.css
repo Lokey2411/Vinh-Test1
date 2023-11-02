@@ -25,6 +25,13 @@
 	font-size: 20px;
 	padding: 16px;
 }
+
+.navbar-item:hover {
+	background-color: white;
+	color: black;
+	cursor: pointer;
+}
+
 .container {
 	background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVKu4Yb0JIaSaJYHB3tEbPJJbUJIsvOloX-A&usqp=CAU") top center / cover no-repeat;
 	/* width: 100vw; */
