@@ -1,0 +1,46 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Arial;
+}
+
+.header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	color: yellow;
+	background-color: red;
+	padding: 0 16px;
+}
+
+.navbar {
+	display: flex;
+}
+.navbar-item {
+	list-style: none;
+	display: flex;
+	align-items: center;
+	text-transform: uppercase;
+	font-size: 20px;
+	padding: 16px;
+}
+.container {
+	background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVKu4Yb0JIaSaJYHB3tEbPJJbUJIsvOloX-A&usqp=CAU") top center / cover no-repeat;
+	/* width: 100vw; */
+	height: 100vh;
+	color: red;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	justify-content: space-between;
+}
+.container-box {
+	/* flex: 1 1 0%; */
+	position: relative;
+	bottom: 60px;
+}
+.container-title {
+	font-size: 24px;
+}
